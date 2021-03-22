@@ -127,7 +127,7 @@ const App = (props) => {
         <Toolbar disableGutters={!open} className={classes.toolbar}>
           <IconButton
             className={clsx(classes.menuButton, open && classes.hide)}
-            color="inherit"
+            color="Red"
             aria-label="toggle drawer"
             onClick={handleDrawerToggle}
           >
